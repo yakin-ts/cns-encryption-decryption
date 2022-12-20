@@ -1,0 +1,27 @@
+{
+  "name": "cns-project-server",
+  "version": "1.0.0",
+  "description": "A simple server to perform encryption and decryption using few well-known algorithms.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/server.js"
+  },
+  "keywords": [
+    "Encryption",
+    "Decryption",
+    "OPT",
+    "3DES",
+    "AES"
+  ],
+  "author": "Yakin Teshome",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "crypto-js": "^4.1.1",
+    "express": "^4.18.2",
+    "one-time-pad": "^3.0.0",
+    "otplib": "^12.0.1"
+  }
+}
